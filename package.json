@@ -1,0 +1,32 @@
+{
+  "name": "demoregister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinnukallara/demoregister.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinnukallara/demoregister/issues"
+  },
+  "homepage": "https://github.com/chinnukallara/demoregister#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/register": "^7.21.0",
+    "@wdio/cli": "^8.8.8",
+    "@wdio/cucumber-framework": "^8.8.7",
+    "@wdio/local-runner": "^8.8.8",
+    "@wdio/spec-reporter": "^8.8.7",
+    "geckodriver": "^3.2.0",
+    "wdio-geckodriver-service": "^4.1.1"
+  }
+}
