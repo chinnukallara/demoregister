@@ -28,5 +28,9 @@
     "@wdio/spec-reporter": "^8.8.7",
     "geckodriver": "^3.2.0",
     "wdio-geckodriver-service": "^4.1.1"
+  },
+  "dependencies": {
+    "@wdio/allure-reporter": "^8.8.7",
+    "allure-commandline": "^2.22.0"
   }
 }
